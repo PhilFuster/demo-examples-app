@@ -1,3 +1,7 @@
+This project will be used to write code snippets from Learning React published by OReilly.  
+Sometimes the examples require more than a just a simple HTML page to render. This project will used  
+to write those little examples out.
+-----------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
