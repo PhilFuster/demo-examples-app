@@ -9,7 +9,11 @@ function App() {
       {cats.map((name, i) => (
         // Using PureCat will ensure a re-render only occurs when the properties of that
         // cat change.
-        <PureCat key={i} name={name} />
+        <PureCat
+          key={i}
+          name={name}
+          meow={(name) => console.log(`${name} has meowed`)}
+        />
       ))}
       {/* Thus when a new cat is added, only the new Cat added is rendered. 
       The rest of the kitties stood the same. */}
